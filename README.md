@@ -20,3 +20,4 @@ To run on a local machine use the `local` command
 `npm run remote -- --grep "@test"`
 
 `npm run local -- --grep "@test"`
+...
