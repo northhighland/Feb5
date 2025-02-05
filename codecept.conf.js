@@ -7,7 +7,7 @@ const build = process.env.BROWSERSTACK_BUILD_NAME;
 exports.config = {
   helpers: {
     WebDriver: {
-      url: "{{BASE_URL}}",
+      url: "www.google.com",
       //MicrosoftEdge//firefox//chrome
       browser: "chrome",
       restart: true,
@@ -81,5 +81,5 @@ exports.config = {
     },
   },
   tests: "./features/**/*.feature",
-  name: "{{PROJECT_NAME}}",
+  name: "Feb5",
 };
